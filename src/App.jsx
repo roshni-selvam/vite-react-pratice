@@ -62,10 +62,10 @@ function App() {
 
       <Routes>
         <Route index element={<Form />} />
-        <Route path="a" element={<State />} />
-        <Route path="context" element={<Context />} />
+        <Route path="/a" element={<State />} />
+        <Route path="/context" element={<Context />} />
         {/* <Route path="CRUD" element={<Create Apilink={Apilink}/>}/>   */}
-        <Route path="hook">
+        <Route path="/hook">
           <Route path="Ref" element={<Ref />} />
         </Route>
       </Routes>
